@@ -4,9 +4,7 @@ Challenge project for [Challenge - MEASURING THE VALUE OF EARTH OBSERVATIONS](ht
 
 &nbsp;
 
-TODO: ADICIONAR NOME DO PROJETO
-
-TODO: ADICIONAR DESCRIÇÃO DO PROJETO
+ANHANGÁ: CIÊNCIA CIDADÃ PARA ALERTA DE QUEIMADAS E INCÊNDIOS
 
 Os sistemas de monitoramento orbital de queimadas e incêndios são baseados no uso de imagens de baixa resolução espacial. Sendo assim, as queimadas cuja extensão é muito inferior à resolução espacial do sensor podem não ser identificadas. É  caso, por exemplo, de queimadas que acontecem no perímetro urbanos dos municípios e que são muito frequentes no período de estiagem.
 Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (citizens as sensors), fornecendo uma foto com geotag (localização da foto).
@@ -24,7 +22,8 @@ O sistema deve consumir os seguintes dados:
 Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
 
 ****TRADUÇÃO****
-Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (citizens as sensors), fornecendo uma foto com geotag (localização da foto).
+ANHANGÁ: CITIZEN SCIENCE FOR FIRE ALERT
+
 This Project aims to develop system that allow citizens to register forest and urban fires (citizens as sensors) through a photo that contains a geotag (photo location).
 Os dados de coordenadas espaciais da queimada são enviados para as instituições responsáveis pelo combate e autuação. Além disso, esses dados de ciência cidadã são úteis para validação (verificação de erros de omissão e de comissão) de produtos de monitoramentos de queimadas (área queimada e focos).
 Spatial coordinate data of fires are sent to institutions that are responsible for fighting and conduct law issues.
