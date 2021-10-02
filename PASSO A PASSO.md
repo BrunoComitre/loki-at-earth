@@ -17,5 +17,9 @@
 - [ ] Gravar o vídeo do pitch
 - [ ] MVP do projeto
 - [ ] Traduzir a documentação
+- [ ] Definir as bases de dados
+- [ ] Pensar no código do aplicativo
+- [ ] Pensar no código do backend
+- [ ] Pensar no código da predição
 
 ***
