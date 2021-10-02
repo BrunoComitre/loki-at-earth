@@ -1,6 +1,10 @@
 # Nome do Grupo: Loki at Earth
 
-## Nome do Aplicativo: 
+## Nome do Aplicativo: Anhanga 
+
+Anhanga é descrito como "gênio da floresta protetor da fauna e da flora na mitologia tupi", que "[...] não devora nem mata. Vinga os animais vitimados pela insaciabilidade dos caçadores".
+
+Há descrições de que assume a forma de um veado branco com olhos de fogo e é o protetor da caça nas florestas, protegendo os animais contra os caçadores, sobretudo fêmeas com filhotes. Quando a caça conseguia fugir, os indígenas diziam que Anhangá a havia protegido e ajudado a escapar.~~~~
 
 ## Titulo do Projeto: 
 
