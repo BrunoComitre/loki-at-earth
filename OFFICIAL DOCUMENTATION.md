@@ -1,12 +1,12 @@
-# Loki at Earth
+# Nome do Grupo: Loki at Earth
 
-Challenge project for [Challenge - MEASURING THE VALUE OF EARTH OBSERVATIONS](https://2021.spaceappschallenge.org/challenges/statements/measuring-the-value-of-earth-observations/details) 
+## Nome do Aplicativo: 
 
-&nbsp;
+## Titulo do Projeto: 
 
-TODO: ADICIONAR NOME DO PROJETO
+Ciencia cidada para identificaçao de queimadas
 
-TODO: ADICIONAR DESCRIÇÃO DO PROJETO
+## Resumo de Alto Nivel:
 
 Os sistemas de monitoramento orbital de queimadas e incêndios são baseados no uso de imagens de baixa resolução espacial. Sendo assim, as queimadas cuja extensão é muito inferior à resolução espacial do sensor podem não ser identificadas. É  caso, por exemplo, de queimadas que acontecem no perímetro urbanos dos municípios e que são muito frequentes no período de estiagem.
 Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (citizens as sensors), fornecendo uma foto com geotag (localização da foto).
@@ -20,28 +20,40 @@ O sistema deve consumir os seguintes dados:
 - Focos de queimadas ocorridas nas últimas 2 horas (todos os satélites) disponibilizados pelo Projeto Queimadas do INPE para visualizar as coordenadas de queimadas e incêndios detectados por outros satélites além do MODIS/Aqua
 - OpenStreetMap (OSM), que é um projeto de mapeamento colaborativo para facilitar a buscar de uma determinada localização
 
-
 Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
 
+## Refencias Bibliográficas:
 
-&nbsp;
+## Tags:
 
-## Documentation
+#fire, #application, #cienciacidada, #meansuring
 
-All project documentation is located in [Notion](https://www.notion.so/product), and is open for contributions, the access link is: [LOKI AT EARTH](https://www.notion.so/brunocomitre/LOKI-AT-EARTH-e2b784b6fcc34ebfa6eade2544279688)
+# Desenvolvimento
 
-We have a basic navigation flow between the user and the backend, along with the prediction, which can be updated in:
-[FLOW](https://whimsical.com/app-flow-LbDu9wRn42MBA6g3dMiWfw@2Ux7TurymMeBJsVycdo5)
+## Aplicativo
 
+- A aplicativo é responsavel por gerenciar usuarios e notifica-los
 
-&nbsp;
+- Ele  enviara as informacoes ao backend, onde o backend ira tratar os dados, e caso haja evidencias de que as queimadas acontecam, ira ser disparado notificacoes aos usuarios
 
-## Members
+## Backend
 
-- [Adrielly Inocencio](https://www.linkedin.com/in/adrielly-inocencio-4a4007210/) | [@dryinoccencio](https://www.instagram.com/dryinoccencio/)
-- [Bruno Alves Comitre](https://www.linkedin.com/in/brunocomitre/) | [@the_comitre](https://www.linkedin.com/in/brunocomitre/)
-- [Edgar Miyamoto](https://www.linkedin.com/in/edgarmiyamoto/) | [@miyamotoedgar](https://www.instagram.com/miyamotoedgar/)
-- [Fernanda Cristina Guerra](https://www.linkedin.com/in/fernandacguerra/) | [@fer.cris.guerra](https://www.instagram.com/fer.cris.guerra) 
-- [Silvia de Jesus](https://www.linkedin.com/in/silviadejesus/) | [@silviadejesus_](https://www.instagram.com/silviadejesus_/) | [Silvia de Jesus](https://www.facebook.com/silvia.crisj/)
+A API do backend é reponsável pelo:
 
-***
+- gerenciamento de usuários e notificacoes
+- realizar o tratamento dos dados enviados pelos usuarios e junto aos dados da predicao encontrar um valor para notificar outros usuarios
+- codificada em python usando framework fastapi e/ou flask
+- o backend será responsavel por gerar e armazenar o indice de confiabilidade do:
+  - usuario
+  - queimada
+- será codificado em flutter
+- possuira uma base de dados mongodb
+
+## Predicao
+
+- codificada em python usando a ferramenta kaggle
+- usando duas bases de dados iniciais:
+  - base 1
+  - base 2
+
+- responsavel pelo tratamento dos dados e da geracao do modelo a ser usado para predicao do backend
