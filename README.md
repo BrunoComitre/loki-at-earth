@@ -1,6 +1,6 @@
 # Loki at Earth
 
-Challenge project for [Challenge - MEASURING THE VALUE OF EARTH OBSERVATIONS](https://2021.spaceappschallenge.org/challenges/statements/measuring-the-value-of-earth-observations/details) 
+Challenge project for [Challenge - WARNING: THINGS ARE HEATING UP!](https://2021.spaceappschallenge.org/challenges/statements/warning-things-are-heating-up/details) 
 
 &nbsp;
 
@@ -23,6 +23,8 @@ O sistema deve consumir os seguintes dados:
 O sistema apresenta também uma análise espaço-temporal dos incêndios de vegetação detectados pelo MODIS/Aqua (satélite de referência) durante os últimos 10 anos por município.
 
 Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
+
+Seguindo os princípios da Open Science, os dados e o código estarão disponíveis na plataforma online do github (https://github.com/BrunoComitre/loki-at-earth).
 
 ****TRADUÇÃO****
 ANHANGÁ: CITIZEN SCIENCE FOR FIRE ALERT
