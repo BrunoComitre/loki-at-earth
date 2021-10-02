@@ -23,6 +23,30 @@ O sistema deve consumir os seguintes dados:
 
 Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
 
+****TRADUÇÃO****
+Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (citizens as sensors), fornecendo uma foto com geotag (localização da foto).
+This Project aims to develop system that allow citizens to register forest and urban fires (citizens as sensors) through a photo that contains a geotag (photo location).
+Os dados de coordenadas espaciais da queimada são enviados para as instituições responsáveis pelo combate e autuação. Além disso, esses dados de ciência cidadã são úteis para validação (verificação de erros de omissão e de comissão) de produtos de monitoramentos de queimadas (área queimada e focos).
+Spatial coordinate data of fires are sent to institutions that are responsible for fighting and conduct law issues.
+Outra funcionalidade do sistema é enviar alertas de queimadas e incêndios que estão ocorrendo nas proximidades (até 2 km) de uma determinada localização, como residência de interessados em receber o alerta, aeroportos, áreas protegidas (unidades de conservação e terras indígenas), linhas de transmissão de energia e outros.
+Other system funcionality is sent warnings of fires that are occurring next a certain location (2 km), such as residence of interested in receiving the alert, airports, protected areas (conservation units and indigenous lands), power transmission lines and others.
+
+The system will sent alerts identified by a legend in the visualization map according to their sources: 1) registers sent by citizens; 2) ocurrences detected by MYD14A1.006 (thermal anomalies and fires); 3) occurrences detected by INPE’s fire monitoring system.
+The system consumes the following data:
+- MYD09Q1 product (Aqua Surface Reflectance 8-Day L3 Global 250m), for visualizing Earth surface considering the best pixel in the last 8 days
+- MYD09GQ product (Aqua Surface Reflectance Daily L2G Global 250m), for visualizing daily Earth surface (with the possibility of cloud cover and lack of images);
+- MYD14A1.006 product (Aqua Thermal Anomalies & Fire Daily Global 1km), for visualizing fire location and sent alerts;
+- MYD04_L2 product (Aqua Aerosol 5-Min), for visualizing fire smoke;
+- Vegetation fires detected during the last 2 hours (all satellites) provided by INPE’s (Brazilian National Institute for Space Research) Queimadas Project, for visualizing fire coordinates detected by satellites other than Aqua and also sent alerts;
+- OpenStreetMap (OSM), a collaborative mapping project to make it easy to search places.
+
+The system also displays a spatial-temporal analysis of vegetation fires detected by MODIS/Aqua (reference satellite) during the last 10 year by municipality.
+
+Following the principles of Open Science, the data and code will be available on the github online platform (https://github.com/BrunoComitre/loki-at-earth).
+In Norse Mythology, Loki is the god of fire. The group's name is a play on the expression "Look at" with the name of Loki, referring to the phrase "Look at the Earth".
+
+#UrbanFires #VegetationFires #earthobservation #CitizenScience #CitizensAsSensors #MODIS #Aqua #FireMonitoring  #geotag
+
 
 &nbsp;
 
