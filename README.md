@@ -20,14 +20,16 @@ O sistema deve consumir os seguintes dados:
 - Focos de queimadas ocorridas nas últimas 2 horas (todos os satélites) disponibilizados pelo Projeto Queimadas do INPE para visualizar as coordenadas de queimadas e incêndios detectados por outros satélites além do MODIS/Aqua
 - OpenStreetMap (OSM), que é um projeto de mapeamento colaborativo para facilitar a buscar de uma determinada localização
 
+O sistema apresenta também uma análise espaço-temporal dos incêndios de vegetação detectados pelo MODIS/Aqua (satélite de referência) durante os últimos 10 anos por município.
 
 Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
 
 ****TRADUÇÃO****
 ANHANGÁ: CITIZEN SCIENCE FOR FIRE ALERT
 
-This Project aims to develop a system that allow citizens to register forest and urban fires (citizens as sensors) through a photo that contains a geotag (photo location).
-Spatial coordinate data of fires are sent to institutions that are responsible for fighting and conduct law issues.
+Orbital fire and brush fire monitoring systems are based on the use of low spatial resolution imagery. Thus, fires whose extension is much less than the spatial resolution of the sensor may not be identified. This is the case, for example, with fires that occur in the urban perimeters of municipalities and are very frequent during the dry season. This Project aims to develop a system that allow citizens to register forest and urban fires (citizens as sensors) through a photo that contains a geotag (photo location).
+
+Spatial coordinate data of fires are sent to institutions that are responsible for fighting and conduct law issues. In addition, these citizen science data are useful for validation (checking for errors of omission and commission) of burn monitoring products (burned area and trouble spots).
 Other system funcionality is sent warnings of fires that are occurring next a certain location (2 km), such as residence of interested in receiving the alert, airports, protected areas (conservation units and indigenous lands), power transmission lines and others.
 
 The system will sent alerts identified by a caption in the visualization map according to their sources: 1) registers sent by citizens; 2) ocurrences detected by MYD14A1.006 (thermal anomalies and fires); 3) occurrences detected by INPE’s fire monitoring system.
