@@ -7,10 +7,10 @@ Challenge project for [Challenge - WARNING: THINGS ARE HEATING UP!](https://2021
 ANHANGÁ: CIÊNCIA CIDADÃ PARA ALERTA DE QUEIMADAS E INCÊNDIOS
 
 Os sistemas de monitoramento orbital de queimadas e incêndios são baseados no uso de imagens de baixa resolução espacial. Sendo assim, as queimadas cuja extensão é muito inferior à resolução espacial do sensor podem não ser identificadas. É  caso, por exemplo, de queimadas que acontecem no perímetro urbanos dos municípios e que são muito frequentes no período de estiagem.
-Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (citizens as sensors), fornecendo uma foto com geotag (localização da foto).
+Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (cidadãos como sensores), fornecendo uma foto com geotag (localização da foto).
 
 Os dados de coordenadas espaciais da queimada são enviados para as instituições responsáveis pelo combate e autuação. Além disso, esses dados de ciência cidadã são úteis para validação (verificação de erros de omissão e de comissão) de produtos de monitoramentos de queimadas (área queimada e focos).
-Outra funcionalidade do sistema é enviar alertas de queimadas e incêndios que estão ocorrendo nas proximidades (até 2 km) de uma determinada localização, como residência de interessados em receber o alerta, aeroportos, áreas protegidas (unidades de conservação e terras indígenas) linhas de tranmissão de energia e outros.
+Outra funcionalidade do sistema é enviar alertas de queimadas e incêndios que estão ocorrendo nas proximidades (até 2 km) de uma determinada localização, como residência de interessados em receber o alerta, aeroportos, áreas protegidas (unidades de conservação e terras indígenas) linhas de transmissão de energia e outros.
 
 O sistema deve consumir os seguintes dados:
 - Produto MYD09Q1 (Reflectância de superfície, composição de 8 dias, com resolução de 250 m)para visualização da superfície terrestre, considerando o melhor pixel dos últimos 8 dias
