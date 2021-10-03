@@ -140,6 +140,10 @@ All project documentation is located in [Notion](https://www.notion.so/product),
 We have a basic navigation flow between the user and the backend, along with the prediction, which can be updated in:
 [FLOW](https://whimsical.com/app-flow-LbDu9wRn42MBA6g3dMiWfw@2Ux7TurymMeBJsVycdo5)
 
+We also have [Figma](https://www.figma.com/) to present the prototype of the Project available at: [Anhangá presentation](https://www.figma.com/proto/prfdtdYSGkULhNbsuo8aDS/Anhanga?node-id=503%3A2&scaling=contain&page-id=79%3A413&starting-point-node-id=503%3A2&show-proto-sidebar=1)
+
+Our presentation pitch is available at: [Anhangá: Citizen Science for Fire Alert](https://docs.google.com/presentation/d/1WfBk2-Kuopb7ggfXy0MLSbnjp632RSpb/edit#slide=id.p1)
+
 &nbsp;
 
 ***
