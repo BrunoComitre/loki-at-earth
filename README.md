@@ -2,55 +2,134 @@
 
 Challenge project for [Challenge - WARNING: THINGS ARE HEATING UP!](https://2021.spaceappschallenge.org/challenges/statements/warning-things-are-heating-up/details) 
 
+We choose this challenge because the wildfires are such a big problem and we have a more efficient way to deal with it.
+
+Our project will identify the fires whose aren't identified by the satellites, and the citizens will help in it, registering fires from the app.
+
+Our app is simple to use, you just have to login and see the fires map in your region, receive alerts of fires in the vicinity and even help the society collaborating along with the data provided by NASA and INPE.
+
+The app Anhanga will make you, citizen, a sensor and a helper for the world and the environment, changing how we deal with the fires forever!
+
+***
+
 &nbsp;
 
-ANHANGÁ: CIÊNCIA CIDADÃ PARA ALERTA DE QUEIMADAS E INCÊNDIOS
+## Project Title
 
-Os sistemas de monitoramento orbital de queimadas e incêndios são baseados no uso de imagens de baixa resolução espacial. Sendo assim, as queimadas cuja extensão é muito inferior à resolução espacial do sensor podem não ser identificadas. É  caso, por exemplo, de queimadas que acontecem no perímetro urbanos dos municípios e que são muito frequentes no período de estiagem.
-Este projeto tem como objetivo, desenvolver um sistema que permita que qualquer cidadão possa fazer o registro de uma queimada (cidadãos como sensores), fornecendo uma foto com geotag (localização da foto).
+ANHANGÁ - Citizen Science for Fire Alert
 
-Os dados de coordenadas espaciais da queimada são enviados para as instituições responsáveis pelo combate e autuação. Além disso, esses dados de ciência cidadã são úteis para validação (verificação de erros de omissão e de comissão) de produtos de monitoramentos de queimadas (área queimada e focos).
-Outra funcionalidade do sistema é enviar alertas de queimadas e incêndios que estão ocorrendo nas proximidades (até 2 km) de uma determinada localização, como residência de interessados em receber o alerta, aeroportos, áreas protegidas (unidades de conservação e terras indígenas) linhas de transmissão de energia e outros.
+&nbsp;
 
-O sistema deve consumir os seguintes dados:
-- Produto MYD09Q1 (Reflectância de superfície, composição de 8 dias, com resolução de 250 m)para visualização da superfície terrestre, considerando o melhor pixel dos últimos 8 dias
-- Produto MYD09GQ (Reflectância de superfície, diário, com resolução de 250 m) para visualização da superfície terrestre diária (com possibilidade de cobertura de nuvens e ausência de imagens)
-- Produto MYD14A1.006 (Anomalias térmicas e fogo diário, com resolução de 1 km) para visualização da localização de queimadas
-- Produto MYD04_L2 (Aerossol, 5 minutos, com resolução de 10 km) para visualização de plumas de fumaça
-- Focos de queimadas ocorridas nas últimas 2 horas (todos os satélites) disponibilizados pelo Projeto Queimadas do INPE para visualizar as coordenadas de queimadas e incêndios detectados por outros satélites além do MODIS/Aqua
-- OpenStreetMap (OSM), que é um projeto de mapeamento colaborativo para facilitar a buscar de uma determinada localização
+***
 
-O sistema apresenta também uma análise espaço-temporal dos incêndios de vegetação detectados pelo MODIS/Aqua (satélite de referência) durante os últimos 10 anos por município.
+&nbsp;
 
-Na Mitologia Nórdica, Loki é o deus do fogo. O nome do grupo é um trocadilho para a expressão "Look at" com o nome de Loki, remetendo à frase "Olhe para a Terra".
+## high-Level Project Summary
 
-Seguindo os princípios da Open Science, os dados e o código estarão disponíveis na plataforma online do github (https://github.com/BrunoComitre/loki-at-earth).
+Satellites for monitoring fires are based on the use of low spatial resolution images, thus fires whose extension is much lower than the spatial resolution of the sensor are not identified, such as fires in urban perimeters. This project aims to develop a system that allows any citizen to register a fire (citizens as sensors), providing a photo with a geotag (photo location). The data from the burn is sent to institutions responsible and is also useful for validation of burn monitoring. Another functionality is to send alerts of fires in the vicinity (up to 2 km) of a certain location.
 
-****TRADUÇÃO****
-ANHANGÁ: CITIZEN SCIENCE FOR FIRE ALERT
+&nbsp;
+
+***
+
+&nbsp;
+
+## Link to Project "Demo"
+
+[Demo NASA Space Apps](https://www.youtube.com/watch?v=Ehyj38GJLL8)
+
+&nbsp;
+
+***
+
+&nbsp;
+
+
+## Link to Final Project
+
+[Loki at Earth GitHub](https://github.com/BrunoComitre/loki-at-earth)
+
+&nbsp;
+
+***
+
+&nbsp;
+
+
+## Detailed Project Description
+
+### What it does and how it works
+
+The project aims to alert society and responsible parties through a mobile application.
+
+First, we will collect data for predictions and insghts about fires and generate a machine learning model capable of identifying or not fires via data from Nasa and Inpe databases as well as the future use of Natural Language Processing ([NLP](https://en.wikipedia.org/wiki/Natural_language_processing#:~:text=Natural%20language%20processing%20(NLP)%20is,amounts%20of%20natural%20language%20data.)), to process the information generated by the user.
+
+Then in the second moment we will create a backend where this data together with the models will be treated and reliability indexes will be generated both for the machine learning model and for the users, because we want to reduce the positive and negative errors for the notifications.
+
+The third step is to create a mobile application for users to register and be notified according to the alert and the level of criticality of the burning, as well as visualization of the data contained in the base, within the established rules of [LGPD](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) or [GDPR](https://gdpr-info.eu/).
+
+### Benefits
+
+We hope to achieve through citizen science this collaboration people/science to alert users and responsible sectors about fires happening and warning about times when they occur more due to both heat and dry seasons. Thus we can always prevent or even avoid fires in regions where responsible sectors and residents have no way to notify and be notified.
+
+We aim to help the population and, together with the population, help science and create this ecosystem of mutual contributions for the benefit of the planet.
+
+### Technical Development
+
+The backend application and database studies will be performed using the [Python](https://www.python.org/) language, along with the [FastAPI](https://fastapi.tiangolo.com/) framework, and will be stored in [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try2?utm_content=controlhterms&utm_source=google&utm_campaign=gs_americas_brazil_search_core_brand_atlas_desktop&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624308&gclid=CjwKCAjwqeWKBhBFEiwABo_XBk0X0fsRxV6Yc40xNitB64LNDaaoIrxFThbgvizTJJjuCAbJMiAIrxoCuUcQAvD_BwE).
+
+The application will be developed in [Flutter](https://flutter.dev/) for use on Android and IOS platforms.
+
+All development will be done using [Visual Studio Code](https://code.visualstudio.com/).
+
+&nbsp;
+
+***
+
+&nbsp;
+
+
+## Space Agency Data
 
 Orbital fire and brush fire monitoring systems are based on the use of low spatial resolution imagery. Thus, fires whose extension is much less than the spatial resolution of the sensor may not be identified. This is the case, for example, with fires that occur in the urban perimeters of municipalities and are very frequent during the dry season. This Project aims to develop a system that allow citizens to register forest and urban fires (citizens as sensors) through a photo that contains a geotag (photo location).
 
 Spatial coordinate data of fires are sent to institutions that are responsible for fighting and conduct law issues. In addition, these citizen science data are useful for validation (checking for errors of omission and commission) of burn monitoring products (burned area and trouble spots).
 Other system funcionality is sent warnings of fires that are occurring next a certain location (2 km), such as residence of interested in receiving the alert, airports, protected areas (conservation units and indigenous lands), power transmission lines and others.
 
-The system will sent alerts identified by a caption in the visualization map according to their sources: 1) registers sent by citizens; 2) ocurrences detected by MYD14A1.006 (thermal anomalies and fires); 3) occurrences detected by INPE’s fire monitoring system.
+The system will sent alerts identified by a caption in the visualization map according to their sources: 1) registers sent by citizens; 2) ocurrences detected by MYD14A1.006 (thermal anomalies and fires); 3) occurrences detected by INPE's fire monitoring system.
 The system consumes the following data:
 - MYD09Q1 product (Aqua Surface Reflectance 8-Day L3 Global 250m), for visualizing Earth surface considering the best pixel in the last 8 days
 - MYD09GQ product (Aqua Surface Reflectance Daily L2G Global 250m), for visualizing daily Earth surface (with the possibility of cloud cover and lack of images);
 - MYD14A1.006 product (Aqua Thermal Anomalies & Fire Daily Global 1km), for visualizing fire location and sent alerts;
 - MYD04_L2 product (Aqua Aerosol 5-Min), for visualizing fire smoke;
-- Vegetation fires detected during the last 2 hours (all satellites) provided by INPE’s (Brazilian National Institute for Space Research) Queimadas Project, for visualizing fire coordinates detected by satellites other than Aqua and also sent alerts;
+- Vegetation fires detected during the last 2 hours (all satellites) provided by INPE's (Brazilian National Institute for Space Research) Queimadas Project, for visualizing fire coordinates detected by satellites other than Aqua and also sent alerts;
 - OpenStreetMap (OSM), a collaborative mapping project to make it easy to search places.
 
 The system also displays a spatial-temporal analysis of vegetation fires detected by MODIS/Aqua (reference satellite) during the last 10 year by municipality.
 
+&nbsp;
+
+***
+
+&nbsp;
+
+## Hackathon Journey
+
+During the journey the team got in sync in an inexplicable way. Each person on the team has a knowledge that perfectly matched the activity to be developed.
+
+We have from geospatial researchers to system development leaders, programmers, physicists, accounting scientists, and an OBA (Brazilian Astronomy Olympiad) award winner, an exceptional range of knowledge for the development of the activity.
+
+Each one took their own branch of knowledge and created what would be the best solution for the activity, and the whole team came together in a common agreement, thus gaining speed and flexibility in all approaches.
+
+Team setbacks do happen, so whenever an absence was needed, we all supported it to be solved and came back whenever possible, and the activity was not impacted because each professional of the team was able to meet any demand related to the challenge.
+
+The whole team would like to thank the whole team because leaving their activities aside on a weekend to meet unknown people and develop a project is extremely satisfying. The UFSCAR São Carlos for bringing this challenge to Brazil and exceptionally coordinating the event and giving all the support when necessary, and NASA and all space companies that are in union to solve challenges on behalf of humanity, so all involved deserve the most sincere congratulations for being making a difference in the world. Thank you!
+
 In Norse Mythology, Loki is the god of fire. The group's name is a play on the expression "Look at" with the name of Loki, referring to the phrase "Look at the Earth".
 
-Following the principles of Open Science, the data and code will be available on the github online platform (https://github.com/BrunoComitre/loki-at-earth).
+&nbsp;
 
-#UrbanFires #VegetationFires #earthobservation #CitizenScience #CitizensAsSensors #MODIS #Aqua #FireMonitoring  #geotag
-
+***
 
 &nbsp;
 
@@ -61,10 +140,15 @@ All project documentation is located in [Notion](https://www.notion.so/product),
 We have a basic navigation flow between the user and the backend, along with the prediction, which can be updated in:
 [FLOW](https://whimsical.com/app-flow-LbDu9wRn42MBA6g3dMiWfw@2Ux7TurymMeBJsVycdo5)
 
+&nbsp;
+
+***
 
 &nbsp;
 
 ## Members
+
+&nbsp;
 
 - [Adrielly Inocencio](https://www.linkedin.com/in/adrielly-inocencio-4a4007210/) | [@dryinoccencio](https://www.instagram.com/dryinoccencio/)
 - [Bruno Alves Comitre](https://www.linkedin.com/in/brunocomitre/) | [@the_comitre](https://www.linkedin.com/in/brunocomitre/)
@@ -72,6 +156,10 @@ We have a basic navigation flow between the user and the backend, along with the
 - [Fernanda Cristina Guerra](https://www.linkedin.com/in/fernandacguerra/) | [@fer.cris.guerra](https://www.instagram.com/fer.cris.guerra) 
 - [Silvia de Jesus](https://www.linkedin.com/in/silviadejesus/) | [@silviadejesus_](https://www.instagram.com/silviadejesus_/) | [Silvia de Jesus](https://www.facebook.com/silvia.crisj/)
 - [Vinicius Loiola Beserra](https://www.linkedin.com/in/newearth-6672a026/) | [@viniitz](https://www.instagram.com/viniitz/)
+
+***
+
+&nbsp;
 
 ## References
 
@@ -89,5 +177,17 @@ We have a basic navigation flow between the user and the backend, along with the
 - [openstreetmap](https://www.openstreetmap.org/#map=5/-15.130/-53.189)
 
 Goodchild, M.F. Citizens as sensors: the world of volunteered geography. GeoJournal v. 69, p. 211–221 (2007)
+
+&nbsp;
+
+***
+
+&nbsp;
+
+## Tags:
+
+#fire, #app, #mobile, #modis, #citizenscience
+
+&nbsp;
 
 ***
