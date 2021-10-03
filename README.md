@@ -71,6 +71,7 @@ We have a basic navigation flow between the user and the backend, along with the
 - [Edgar Miyamoto](https://www.linkedin.com/in/edgarmiyamoto/) | [@miyamotoedgar](https://www.instagram.com/miyamotoedgar/)
 - [Fernanda Cristina Guerra](https://www.linkedin.com/in/fernandacguerra/) | [@fer.cris.guerra](https://www.instagram.com/fer.cris.guerra) 
 - [Silvia de Jesus](https://www.linkedin.com/in/silviadejesus/) | [@silviadejesus_](https://www.instagram.com/silviadejesus_/) | [Silvia de Jesus](https://www.facebook.com/silvia.crisj/)
+- [Vinicius Loiola Beserra](https://www.linkedin.com/in/newearth-6672a026/) | [@viniitz](https://www.instagram.com/viniitz/)
 
 ## References
 
@@ -87,12 +88,6 @@ We have a basic navigation flow between the user and the backend, along with the
 - [Programa Queimadas INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS](https://queimadas.dgi.inpe.br/queimadas/portal)
 - [openstreetmap](https://www.openstreetmap.org/#map=5/-15.130/-53.189)
 
-
 Goodchild, M.F. Citizens as sensors: the world of volunteered geography. GeoJournal v. 69, p. 211–221 (2007)
-
-
-
-
-
 
 ***
