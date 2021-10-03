@@ -72,4 +72,27 @@ We have a basic navigation flow between the user and the backend, along with the
 - [Fernanda Cristina Guerra](https://www.linkedin.com/in/fernandacguerra/) | [@fer.cris.guerra](https://www.instagram.com/fer.cris.guerra) 
 - [Silvia de Jesus](https://www.linkedin.com/in/silviadejesus/) | [@silviadejesus_](https://www.instagram.com/silviadejesus_/) | [Silvia de Jesus](https://www.facebook.com/silvia.crisj/)
 
+## References
+
+- [FIRMS - Fire Information for Resource Management System](https://firms.modaps.eosdis.nasa.gov/map/#d:24hrs;@-46.9,-22.6,7z)
+- [Wildfire Data Resources](https://earthdata.nasa.gov/learn/wildfires-resource-page)
+- [MCD64A1 v006 MODIS/Terra+Aqua Burned Area Monthly L3 Global 500 m SIN Grid](https://lpdaac.usgs.gov/products/mcd64a1v006/)
+- [Global Imagery Browse Services (GIBS)](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/gibs)
+- [Web Service: MODIS/VIIRS Land Products](https://modis.ornl.gov/data/modis_webservice.html)
+- [Getting Started with the AρρEEARS API: Submitting and Downloading an Area Request](https://lpdaac.usgs.gov/resources/e-learning/getting-started-with-the-a%CF%81%CF%81eears-api-submitting-and-downloading-an-area-request/)
+- [urs.earthdata.nasa.gov/users/new/](https://e4ftl01.cr.usgs.gov/MOTA/MCD64A1.006/?_gl=1*pi0bzx*_ga*MTUxOTgzMDAyOS4xNjMyNzgzMjYz*_ga_0YWDZEJ295*MTYzMzEzNTEzMTE2Mi50bjN1bWt4OC4xLjEuMTYzMzEzNTEzMS4w)
+- [Surface Reflectance Global](https://modis.gsfc.nasa.gov/data/dataprod/mod09.php)
+- [MODIS Aerosol Product](https://modis.gsfc.nasa.gov/data/dataprod/mod04.php)
+- [MODIS Thermal Anomalies/Fire](https://modis.gsfc.nasa.gov/data/dataprod/mod14.php)
+- [Programa Queimadas INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS](https://queimadas.dgi.inpe.br/queimadas/portal)
+- [openstreetmap](https://www.openstreetmap.org/#map=5/-15.130/-53.189)
+
+
+Goodchild, M.F. Citizens as sensors: the world of volunteered geography. GeoJournal v. 69, p. 211–221 (2007)
+
+
+
+
+
+
 ***
