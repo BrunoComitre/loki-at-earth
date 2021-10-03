@@ -8,7 +8,7 @@ Há descrições de que assume a forma de um veado branco com olhos de fogo e é
 
 ## Titulo do Projeto: 
 
-Ciencia cidada para identificaçao de queimadas
+Citizen Science for Fire Alert
 
 ## Resumo de Alto Nivel:
 
