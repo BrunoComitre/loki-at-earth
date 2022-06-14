@@ -1,5 +1,7 @@
 # Loki at Earth
 
+# Pausado, por motivo de continuar outros projetos com mais necessidade
+
 Challenge project for [Challenge - WARNING: THINGS ARE HEATING UP!](https://2021.spaceappschallenge.org/challenges/statements/warning-things-are-heating-up/details) 
 
 We choose this challenge because the wildfires are such a big problem and we have a more efficient way to deal with it.
